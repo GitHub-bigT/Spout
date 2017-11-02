@@ -30,6 +30,7 @@ SpoutSender:发送器
             SpoutDirect.CreateSharedDX11Texture//Usage:default
             //如果是CPU的模式 则创建出一个stage的纹理
             SpoutGLDXinterop.LinkGLDXtextures 将dx纹理链接到gl的纹理上
+              关键函数wglDXOpenDeviceNV、wglDXRegisterObjectNV
         else//否则的话  如果这里是一个gl的上下文，加载扩展以便fbo的工作
         //从2.005开始，gl也被用来内存分享，如果扩展加载失败的话，退出
 
