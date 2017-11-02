@@ -3,6 +3,16 @@ http://spout.zeal.co/
 
 MODE:GPU(NVIDIA GL/DX interop extension) CPU Memory
 
+Sender部分的源码剖析：
+
+GPU模式 sende gl texture：
+
+dx 创建Usage：default的纹理 gl创建fbo和纹理
+
+两个关键函数：wglDXOpenDeviceNV(dxdevice) return interopDevice句柄、wglDXRegisterObjectNV(interop device , gl tex , dx tex)将gl和dx的纹理关联起来
+
+send时：绑定到fbo上，将带有数据的纹理关联到fbo的颜色缓冲区节点0上 readbuffer 将dx和gl关联起来的纹理关联在fbo的颜色缓冲区节点1上 drawbuffer glblitFramebufferEXT进行位块传输数据
+
 SpoutSender:发送器
 
   SpoutSender.CreateSender:创建一个发送器
