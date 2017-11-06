@@ -45,3 +45,6 @@ SpoutSender:发送器
         //从2.005开始，gl也被用来内存分享，如果扩展加载失败的话，退出
 
 SpoutReceiver:接收器
+
+
+SpoutCam 64位的实现
