@@ -1,0 +1,11 @@
+Error	LNK2001	unresolved external symbol MEDIATYPE_Video	
+Severity	Code	Description	Project	File	Line	Suppression State
+Error	LNK2001	unresolved external symbol IID_IFilterMapper2	HirenderFilter	D:\Code\practise\HirenderFilter\HirenderFilter\Dll.obj	1	
+Severity	Code	Description	Project	File	Line	Suppression State
+Error	LNK2001	unresolved external symbol IID_IFilterMapper2	HirenderFilter	D:\Code\practise\HirenderFilter\HirenderFilter\STRMBASE.lib(dllsetup.obj)	1	
+Severity	Code	Description	Project	File	Line	Suppression State
+Error	LNK2001	unresolved external symbol CLSID_FilterMapper2	HirenderFilter	D:\Code\practise\HirenderFilter\HirenderFilter\Dll.obj	1	
+Severity	Code	Description	Project	File	Line	Suppression State
+Error	LNK2001	unresolved external symbol CLSID_FilterMapper2	HirenderFilter	D:\Code\practise\HirenderFilter\HirenderFilter\STRMBASE.lib(dllsetup.obj)	1	
+
+strmiids.lib
