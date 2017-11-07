@@ -1,7 +1,13 @@
 Error	LNK2001	unresolved external symbol MEDIATYPE_Video	
-Error	LNK2001	unresolved external symbol IID_IFilterMapper2	HirenderFilter	
-Error	LNK2001	unresolved external symbol IID_IFilterMapper2	HirenderFilter	
-Error	LNK2001	unresolved external symbol CLSID_FilterMapper2	HirenderFilter	
-Error	LNK2001	unresolved external symbol CLSID_FilterMapper2	HirenderFilter	
-
+Error	LNK2001	unresolved external symbol IID_IFilterMapper2	
+Error	LNK2001	unresolved external symbol IID_IFilterMapper2	
+Error	LNK2001	unresolved external symbol CLSID_FilterMapper2	
+Error	LNK2001	unresolved external symbol CLSID_FilterMapper2	
 添加：strmiids.lib
+
+Error	LNK2001	unresolved external symbol __imp_wglGetCurrentContext	HirenderFilter	
+Error	LNK2001	unresolved external symbol __imp_wglCreateContext	HirenderFilter	
+Error	LNK2001	unresolved external symbol __imp_wglDeleteContext	HirenderFilter	
+Error	LNK2001	unresolved external symbol __imp_wglMakeCurrent	HirenderFilter	
+Error	LNK2001	unresolved external symbol __imp_glGetError	HirenderFilter	
+添加 opengl32.lib
